@@ -1,0 +1,8 @@
+samyn_test_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SamynTestBundle:Default:index }
+
+
+samyn_test_newpage:
+    path:     /newpage/{name}
+    defaults: { _controller: SamynTestBundle:Advert:newpage }
